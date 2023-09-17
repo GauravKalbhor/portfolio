@@ -1,0 +1,51 @@
+@media(max-width:850px){
+    .container{
+        /* padding: 0 10%; */
+        display: contents;
+        justify-content: center;
+        width: 100%;
+    }
+    .mobile{
+        position: static !important;    
+        width: 20rem;
+        height: auto;
+        margin: 10% 0 0 30%;
+    }
+    .nav{
+        display: none;
+    }
+    .main{
+        width: 100%;
+        margin: 0;
+    }
+    p{
+        font-size: 28px;
+    }
+    .intro, .about, .resume, .services, .skill, .portfolio, .responce, .contact{
+        justify-content: center;
+        margin: 0 0 0 15%;
+        width: 100%;
+    }
+    .h-space{
+        width: 0;
+        height: 0;
+    }
+    .s-box{
+        width: 100%;
+        height: auto;
+    }
+    .s-box:hover{
+        transform: translateX(40px);
+    }
+
+    .s_img{
+        height: 25vh;
+    }
+    form{
+        width: 70%;
+    }
+    .col-md-6{
+        width: 100%;
+    }
+    
+}
